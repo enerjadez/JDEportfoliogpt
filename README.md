@@ -19,7 +19,7 @@ npm test
 
 ## Deployment
 
-Pushes to `main` are built and deployed automatically to GitHub Pages through
-the workflow in `.github/workflows/deploy-pages.yml`.
+The validated static production build is published from the dedicated
+`gh-pages` branch.
 
 Live site: <https://enerjadez.github.io/JDEportfoliogpt/>
