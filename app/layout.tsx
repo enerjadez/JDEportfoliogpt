@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "JDE — Intelligent Systems for Modern Business",
   description:
-    "JDE designs AI-powered systems that turn slow processes, scattered data, and repetitive work into clarity, performance, and freedom.",
+    "Explore JDE’s interactive systems playground and see how AI-powered workflows turn friction into clarity, performance, and freedom.",
   keywords: [
     "JDE",
     "AI systems",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       "Intelligent systems for better productivity, data clarity, performance, and operational freedom.",
     images: [
       {
-        url: siteUrl + "og.png",
+        url: siteUrl + "og-constraint-engine.png",
         width: 1536,
         height: 1024,
         alt: "JDE — Your business, engineered to move freely.",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "JDE — Intelligence made useful",
     description:
       "AI-powered systems built for speed, control, clarity, and growth.",
-    images: [siteUrl + "og.png"],
+    images: [siteUrl + "og-constraint-engine.png"],
   },
   icons: {
     icon: publicBasePath + "/favicon.svg",

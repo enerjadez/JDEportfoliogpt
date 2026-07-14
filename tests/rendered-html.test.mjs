@@ -35,6 +35,10 @@ test("server-renders the finished JDE experience", async () => {
   );
   assert.match(html, /Your business,/);
   assert.match(html, /engineered/);
+  assert.match(html, /Constraint engine/i);
+  assert.match(html, /Bottleneck lab/i);
+  assert.match(html, /Planning capacity opened/i);
+  assert.match(html, /Turn this sketch into a build/i);
   assert.match(html, /Bring us the/);
   assert.match(html, /contact-form/);
   assert.match(html, /application\/ld\+json/);
@@ -50,6 +54,8 @@ test("removes starter-only preview infrastructure", async () => {
 
   assert.match(page, /^"use client";/);
   assert.match(page, /Intelligent systems studio/);
+  assert.match(page, /SystemPlayground/);
+  assert.match(page, /HeroScene/);
   assert.match(layout, /JDE — Intelligent Systems for Modern Business/);
   assert.doesNotMatch(layout, /codex-preview|_sites-preview|next\/font/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
